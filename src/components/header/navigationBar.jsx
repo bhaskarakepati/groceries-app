@@ -11,7 +11,7 @@ export class navigationBar extends Component {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ml-auto">
                 <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/orderNow">Oreder Now</Nav.Link>
+                <Nav.Link href="/orderNow">Order Now</Nav.Link>
                 <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                   <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>

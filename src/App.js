@@ -8,6 +8,7 @@ import SignUp from "./components/pages/sign-up/sign-up.component";
 import Header from "./components/header/header.component";
 import NavigationBar from "./components/header/navigationBar";
 import Layout from "./components/Layout";
+import Plp from './components/pages/plp/plp.component';
 class App extends React.Component {
   render() {
     return (
@@ -18,6 +19,7 @@ class App extends React.Component {
             <Route exact path="/" component={HomePage} />
             <Route exact path="/signin" component={SignIn} />
             <Route exact path="/signup" component={SignUp} />
+            <Route exact path="/orderNow" component={Plp} />
           </Switch>
         </Layout>
       </React.Fragment>
