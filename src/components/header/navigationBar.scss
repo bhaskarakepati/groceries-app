@@ -1,0 +1,24 @@
+.header_items{
+    justify-content: space-around;
+    text-align: center;
+}
+ .header__logo{
+    display: block;
+    a img {
+        border: 0;
+    }
+    img {
+        width: 100%;
+        max-width: 250px;
+        display: block;
+    }
+}
+.profile .dropdown button{
+    background: white;
+    color: black;
+    border: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: bold;
+}

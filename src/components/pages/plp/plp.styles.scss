@@ -2,3 +2,18 @@
 .products_list{
     justify-content: space-around;
 }
+.border-bg{
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+}
+.menu_Filter{
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    height: auto;
+    list-style: none;
+    padding: 10px 65px 10px 23px;
+    width: auto;
+    li{
+        padding: 2px;
+    }
+}
