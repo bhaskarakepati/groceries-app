@@ -7,7 +7,7 @@ export class navigationBar extends Component {
   render() {
     return (
       <Fragment>
-        <Container >
+        {/* <Container fluid>
           <Row md={4} lg={4} className="header_items m-2">
             <Col>
               <a href="/" class="header__logo"></a>
@@ -31,7 +31,8 @@ export class navigationBar extends Component {
             </Col>
           </Row>
         </Container>
-        <Container >
+        */}
+        <Container fluid>
           <Navbar expand="lg" className="border-top border-bottom font">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -56,8 +57,12 @@ export class navigationBar extends Component {
                 </NavDropdown>
                 <Nav.Link href="/orderNow">Spices</Nav.Link>
                 <Nav.Link href="/">Healthy Options</Nav.Link>
-                
                 <Nav.Link href="/signin">Froozen Foods</Nav.Link>
+
+                <Nav.Link href="/orderNow">Spices</Nav.Link>
+                <Nav.Link href="/">Healthy Options</Nav.Link>
+                <Nav.Link href="/signin">Froozen Foods</Nav.Link>
+
               </Nav>
             </Navbar.Collapse>
           </Navbar>
