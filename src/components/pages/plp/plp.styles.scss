@@ -1,8 +1,13 @@
+ @import "~bootstrap/scss/mixins/_breakpoints.scss";
+
 .products_list{
     padding-left: 1rem;
 }
 .plp_list{
     justify-content: flex-start;
+    @media (max-width: 768px) { 
+        justify-content: center;
+    }
 }
 .border-bg{
     background-color: #f7f7f7;
@@ -22,6 +27,8 @@
 
 .product_card{
     width: 200px;
+    border: 1px solid #e1e1e1;
+    padding-bottom: 1rem;
     .figure-caption {
         color: black;
         font-weight: bold;
@@ -91,6 +98,7 @@
         padding-top: 10px;
         font-size: 13px;
         font-weight: bold;  
+        text-align:end; 
       }
     .sort_dropdown button{
         border-radius: 3rem;
@@ -101,6 +109,10 @@
         height: auto;
         color: black;
         padding: 9px 30px;
+        @media (max-width: 768px) { 
+            padding: 7px;
+
+        }
        }
        button#dropdown-basic {
         background-color: white;

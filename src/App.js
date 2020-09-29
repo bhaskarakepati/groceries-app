@@ -8,11 +8,12 @@ import SignUp from "./components/pages/sign-up/sign-up.component";
 import Header from "./components/header/header.component";
 import NavigationBar from "./components/header/navigationBar";
 import Layout from "./components/Layout";
-import Plp from './components/pages/plp/plp.component';
+import Plp from "./components/pages/plp/plp.component";
 class App extends React.Component {
   render() {
     return (
       <React.Fragment>
+        <Header />
         <NavigationBar />
         <Layout>
           <Switch>
